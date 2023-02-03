@@ -5,7 +5,7 @@ const AboutUs = () => {
     return (
         <div className='mt-12' id="about">
             <div className='flex items-center justify-center'>
-                <h4 align="center" className='text-3xl font-bold'>About us
+                <h4 align="center" className='text-3xl font-bold '>About us
                     <br />
                     -
                 </h4>
@@ -22,7 +22,7 @@ const AboutUs = () => {
                 <h4 className='text-lg font-bold tracking-wide'>Harvest. Process. Produce  </h4>
             </div>
             <div className='flex items-center justify-center p-2 mt-4 '>
-                <p className='text-lg tracking-wide ' align="center" >Sailing from Kollam, the eponymous city, the cashew capital of world  exporting Lakhs of tonnes to USA, <br />
+                <p className='text-lg tracking-wide  ' align="center" >Sailing from Kollam, the eponymous city, the cashew capital of world  exporting Lakhs of tonnes to USA, <br />
                     Japan, Saudi Arabia etc we marked our presence two decades back. We understood that <br /> our people,
                     despite being in a cashew hub are not getting the export quality <br />
                     premium Cashew nuts. So they went for what was cheap.

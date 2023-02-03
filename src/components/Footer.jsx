@@ -24,8 +24,8 @@ const Footer = () => {
 
                         <div className="hidden md:flex   md:justify-center ">
                             <p>
-                                &#169; Naturepark 2023 <br />
-                                All rights reserved
+                                &#169;Asian Harvest LLP   <br />
+                                2023  All rights reserved
                             </p>
                         </div>
                     </div>
@@ -38,9 +38,12 @@ const Footer = () => {
                             Kollam - 14, Kerala, India. <br />
                             <br />
                             <span className="font-normal duration-100 cursor-pointer">
-                                <a href="/"></a>mail@sales@Asian Harvest LLp.in
+                                <div className="font-normal duration-100 cursor-pointer mt-2">
+                                    <a href="tel:+91 9526750675"> +91 9526 750 675</a>
+                                </div>
+                                <a href="mailto: unaislatheef@gmail.com">unaislatheef@gmail.com</a>
                             </span>
-                        </p>
+                           </p>
                     </div>
                 </div>
                 <div>
@@ -76,7 +79,10 @@ const Footer = () => {
                             Kollam - 14, Kerala, India. <br />
                             <br />
                             <span className="font-normal duration-100 cursor-pointer">
-                                <a href="/"></a> mail@sales@Asian Harvest LLp.in
+                                <div className="font-normal duration-100 cursor-pointer mt-2">
+                                    <a href="tel:+91 9526 750 675">+91 9526 750 675 </a>
+                                </div>
+                                <a href="mailto: unaislatheef@gmail.com">unaislatheef@gmail.com</a>
                             </span>
                         </p>
                     </div>

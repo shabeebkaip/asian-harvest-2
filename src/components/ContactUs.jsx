@@ -2,9 +2,13 @@ import React from 'react'
 import productBack from '../assets/BANNER DESIGN/AH_BANNER_CASHEWpack.png'
 import AH_spooncashew from '../assets/AH_spooncashew.png'
 
+
+
 const ContactUs = () => {
+
+ 
     return (
-        <div className='p-12 mt-12' id="contact_us">
+        <div className='p-12 mt-12 ' id="contact" >
             <div className='grid grid-cols-1 lg:grid-cols-2'>
                 <div>
                     <div className='flex justify-start'>
@@ -17,12 +21,10 @@ const ContactUs = () => {
                         <div className='flex justify-start '>
                             <h4 className='text-2xl font-normal'>Please get in Touch Via Phone: </h4>
                         </div>
-                        <div className='flex justify-start mt-4'>
-                            <h4 className='text-2xl font-semibold'>+91 9961 343 770</h4>
+                         <div className='flex justify-start mt-4'>
+                            <h4 className='text-2xl font-semibold'>  <a href="tel:+91 9526750675"> +91 9526 750 675</a> </h4>
                         </div>
-                        <div className='flex justify-start mt-1'>
-                            <h4 className='text-2xl font-semibold'>+91 9633 693 339</h4>
-                        </div>
+                      
                     </div>
                     <div className='mt-9'>
                         <div className='flex justify-start '>

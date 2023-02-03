@@ -3,6 +3,7 @@ import logo from '../assets/images/Logo_new.svg'
 import insta from '../assets/images/insta.svg'
 import fb from '../assets/images/fb.svg'
 import whatsapp from '../assets/images/whatsapp.svg'
+import {Link } from 'react-scroll'
 
 const Header = () => {
     console.log('width', window.innerWidth)
@@ -16,9 +17,12 @@ const Header = () => {
                 <div className='flex-1 hidden md:flex' ></div>
                 <div className='flex-1 hidden md:flex'>
                     <div className='flex w-full font-semibold'>
-                        <p className='px-2' ><a href="#about" >About</a> </p>
-                        <p className='px-2' ><a href="#products"> Products</a></p>
-                        <p className='px-2' >Contact</p>
+                        <p className='px-2 cursor-pointer' ><Link to="about" spy={true} smooth={true} offset={100} duration={500}  >About</Link> </p>
+                     
+                        <p className='px-2 cursor-pointer' ><Link to="products" spy={true} smooth={true} offset={100} duration={500}  >Products</Link> </p>
+                      
+                        <p className='px-2 cursor-pointer' ><Link to="contact" spy={true} smooth={true} offset={50} duration={500}  >Contacts</Link> </p>
+                     
                     </div>
                 </div>
                 <div className='flex-1 hidden md:flex '>

@@ -4,9 +4,9 @@ import "./App.css"  // This is the CSS file for the App component
 
 export default function App() {
   return (
-    <div className="overflow-hidden scroll-smooth">
+    <div className="overflow-hidden scroll-smooth ">
       <Header />
-      <AboutUs />
+      <AboutUs className="scroll-smooth" />
       <Products />
       <Packages />
       <ContactUs />
