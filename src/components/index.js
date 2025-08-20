@@ -1,8 +1,7 @@
-import Header from "./Header";
-import AboutUs from "./AboutUs";
-import Products from "./Products";
-import ContactUs from "./ContactUs";
-import Footer from "./Footer";
-import Packages from "./Packages";
-
-export { Header, AboutUs, Products, ContactUs, Footer, Packages };
+export { default as AboutUs } from './AboutUs'
+export { default as Header } from './Header'
+export { default as Products } from './Products'
+export { default as ContactUs } from './ContactUs'
+export { default as Footer } from './Footer'
+export { default as Packages } from './Packages'
+export { default as LoadingSpinner } from './LoadingSpinner'
